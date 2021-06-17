@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li> <!-- target= "_break" leva para outra pagina -->
         <li><a href="contato.html">Contato</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
     </ul>
-    <h1>Sobre o Vinícius</h1> <!-- Vai de H1(maior) até H6(menor)  -->
+    <h1 class="center">Sobre o Vinícius</h1> <!-- Vai de H1(maior) até H6(menor)  -->
 
-    <p>
+    <div class="container">
+    <div class="p-30">
+    <p class="center">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Minus nobis aperiam eos expedita voluptatem perspiciatis corporis iure provident nisi ullam tenetur quibusdam eaque ipsa dolorum maxime, fuga repudiandae quidem quaerat?
     </p>
-
-    <img src="assets/img/foto mae.jpg" alt="Foto do criador desse conteudo">
-    <h2>Meu Video Predileto</h2>
+    </div>
+    <div>
+    <img class="br-50 beyonce p-30" src="assets/img/foto mae.jpg" alt="Foto do criador desse conteudo">
+    </div>
+    </div>
+    <h2 class="center">Meu Video Predileto</h2>
     
-    <iframe width="560"
-    height="315" 
-    src="https://www.youtube.com/embed/h4wHt7woGD0" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FcyCoQhdhDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
 </body>
 </html>
