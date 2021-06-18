@@ -1,59 +1,58 @@
 /*
     Estilos da página index.html
 */
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
-
-
 
 /*
     Estilos da página contato.html
 */
 
-
-
 /*
     Estilos da página habilidades.html
 */
 
-.container{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
 }
 
-#menu li{
-    display: inline;
-    padding: 30px;
+#menu li {
+  display: inline;
+  padding: 30px;
 }
 
-#menu li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+#menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
-#menu li a:hover{
-    color: gray;
+#menu li a:hover {
+  color: gray;
 }
 
-.p-30{
-    padding: 10px;
+.p-30 {
+  padding: 10px;
 }
 
-.br-50{
-    border-radius: 30%;
+.br-50 {
+  border-radius: 30%;
 }
 
-.wh-300{
-    width: 100px;
-    height: 100px;
-
+.wh-300 {
+  width: 100px;
+  height: 100px;
 }
 
-.beyonce{
-    width: 400;
-    height: 350px;
+.beyonce {
+  width: 400;
+  height: 350px;
+}
+
+.ml-50{
+  margin-left: 50px;
 }
